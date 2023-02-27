@@ -1,0 +1,33 @@
+
+Questions:
+
+1. Why did you choose the topic.
+
+	- I chose this topic because I would like to have my own webpage about selling music (albums, singles...) and promotion of artist.
+
+2. Who is the target audience for this website.
+
+	- the target audience for this website are people about 16 to 30-35 years old who likes hip-hop music and the new waves of  this genre.
+
+3. Describe the webpage as if you where describing it to a blind person: Point the implementation
+of the different requirements.
+
+	- This webpage is about selling cds and to have information of these too. 
+It has a simple design with a navigation bar on the top where you can choose between different sections (home, albums and about), 
+a carousel of photos in the middle of the web that allows to show different album covers of the webapge, 
+then you can find the "most selling albums" section where you can buy it them. 
+In the bottom of the page there are the news section where you can find new singles update, 
+concerts and some interesting videos and so the social media pages (Twitter, IG and Youtube).
+
+4. Interesting features of the webpage/ most difficult aspect of creating the webpage/ any obstacles
+you encountered.
+	
+	- One of the difficult aspect that I found is about put the top section fixed without no bother to the carousel section down below. 
+Others difficulties would be put some photos on specific places, split the news section in three differents parts and the design of the multi-collapse div. 
+That's some examples that I found most difficult.
+
+5. Conclusion - What have you learned as result of doing this exercise?
+	
+	- In conclusion, what i learned the most it's how to use CSS and Bootstrap on the same page and many other functions about Bootstrap 
+(like the navbar, collapse sections, buttoms) and so with the responsive design. Another thing that I learned it's how to better formularies with Bootstrap 
+and the differents section that a webpage must have (folders section, images...) .

@@ -1,0 +1,214 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1, h2{
+    font-family: 'Chelsea Market', cursive;
+}
+a,li{
+    font-family: 'Lobster', cursive;
+}
+#todo{
+    width: 100%;
+    height: 100%;
+}
+#margen1{
+    height: 30px;
+    background-image: linear-gradient(white, purple);
+}
+hr{
+    border-top: 2px solid rgb(34, 114, 138);
+}
+#fondo{
+    height: 1060px;
+    background-image: linear-gradient(white, lightblue);
+}
+#logoone{
+    margin-left: 20%; 
+     
+}
+.sectionalbum{
+    height: 140px;
+    width: 100%;
+}
+img{
+    border-radius: 5%;
+}
+#image2, #image3, #image4, #image5{
+    float: left;
+    width: 20%;
+    margin-left: 10%;
+    opacity: 0.7;   
+}
+h2{
+    margin-left: 1%;
+}
+#header{
+    margin-left: 20%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 40%;
+}
+#header2, #header4{
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+#header3{
+    margin-left: 15%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 50% 
+}
+.info1, .info2{
+    width: 30%;
+    float: left;
+}
+#fondo2{
+    height: 930px;
+    background-color: white;
+    width: 50%;
+    margin-left: 2%;
+    float: left;
+}
+.panel>tr>th{
+    display: inline;
+}
+.panel{
+    height: 40px;
+    background-image: linear-gradient(violet,gold);
+}
+#none{
+    width: 60%;
+}
+#none:hover{
+    background-image: linear-gradient(violet,gold);
+}
+a{
+    text-decoration: none;
+    color: rgb(77, 11, 77);
+}
+a:hover{
+    color: gold;
+}
+table{
+    height: 40px;
+    width: 100%;
+    border-collapse: collapse;   
+}
+th:hover{
+    background-color: rgb(139, 32, 139);
+}
+th{
+    border:1px solid rgb(77, 11, 77);
+}
+.links{
+    margin-top: 2%;
+    margin-left: 80%;
+}
+.pf{
+    float: left;
+    width: 20%;
+    height: 220px;
+    margin-top: 1%;
+    margin:1%;
+    margin-left: 15%;
+}
+.uf{
+    float: left;
+    width: 20%;
+    height: 220px;
+    margin-top: 1%;
+    margin-left: 20%;
+}
+.info{
+    height: 250px;
+}
+.album{
+    border-bottom: solid lightblue;
+}
+.albums{
+    border-bottom: lightblue;
+    border-style: inset;
+}
+#map{
+    float: right;
+    margin-top: 3%;
+    margin-right: 2%;
+}
+#logo{
+    margin-left: 50%;
+    margin-right: 50%;
+}
+.hotalbums{
+    height: 50px;
+}
+#hot{
+    text-align: center;
+    height: 85px;
+    width: 20%;
+    float: left;
+    margin-left: 40%;
+    margin-top: 2%;  
+}
+#flame{
+    width: 10%;
+    float: right;
+    height: 60px;
+    margin-right: 25%;
+    transition: width 2s; 
+    margin-top: 3%;  
+}
+#flame:hover{
+    width: 15%;
+}
+#map{
+    border-style: inset;
+}
+#address{
+    margin-top: 1%;
+    text-align: center;
+    width: 20%;
+    background-image: linear-gradient(lightblue,purple);
+    float: left;
+    margin-left: 15%;
+    border: solid;
+    border-top-style: inset;
+    animation-name: address;
+    animation-duration: 5s;
+    position: relative;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+}
+.contact{
+    height: 600px;
+}
+ul{
+    list-style: none;
+}
+@keyframes address{
+    0%{background-image: linear-gradient(lightblue, purple); left:0px; top:0px;}
+    25%{background-image: linear-gradient(lightblue,purple); left:100px; top:0px;}
+    50%{background-image: linear-gradient(lightblue, purple); left:100px; top:100px;}
+    75%{background-image: linear-gradient(lightblue,purple); left:0px; top:100px;}
+    100%{background-image: linear-gradient(lightblue, purple); left:0px; top:0px;}
+}
+.buttom{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.press, .press2, .press3, .press4{
+    width: 20%;
+    margin-top: 5%;
+    float: left;
+}
+
